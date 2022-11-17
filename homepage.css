@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behvaior: smooth;
+    scroll-behavior: smooth;
+    background-color: D3BA9D;
 } 
 
 body, html {
     font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    background-color: rgb(199, 176, 131);
 }
 
 .container {
@@ -19,10 +24,8 @@ body, html {
     justify-content: space-between;
 }
 
-.top-navigation-left {
-    display: flex;
-    align-items: center;
-    gap: 1em;
+.top-navigation h1 {
+    font-size: large;
 }
 
 .top-navigation-links {
@@ -58,40 +61,52 @@ body, html {
     font-family: "Epilogue", sans-serif;
 }
 
-.landingpage-body {
+.top-navigation-logo img {
+    width: 200px;
+}
+
+.homepage-body {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
 }
 
-.landingpage-body-left {
+.homepage-body-left {
     display: flex;
     flex-direction: column;
     gap: 2.5em;
 }
 
-.landingpage-body-left h1 {
-    font-size: 62px;
+.homepage-body-left h1 {
+    font-size: 30px;
     font-weight: bold;
 }
 
-.landingpage-body-left p {
+.homepage-body-left p {
     width: 560px;
     font-size: 18px;
     line-height: 32px;
 }
 
-.landingpage-body-left button {
+.homepage-body-left button {
     border: none;
-    background-color: black;
+    background-color: rgb(76, 130, 245);
     color: white;
     width: 150px;
     padding: 1em;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
 }
 
-.landingpage-body-right img {
+/* .landingpage-body-right img {
     width: 500px;
+} */
+
+.homepage-body-left img {
+    width: 100px;
+}
+
+.patient-testimonials img {
+    float: right;
 }
