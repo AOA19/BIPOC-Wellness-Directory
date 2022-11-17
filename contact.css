@@ -1,3 +1,46 @@
 body {
-    background-color:floralwhite;
+  background-color: floralwhite;
+}
+.title,
+.subtext {
+  text-align: center;
+}
+.main-text {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.logo {
+  height: 20em;
+  width: 20em;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightcoral;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.name-field,
+.email-field {
+  display: flex;
+  column-gap: 50px;
+}
+input {
+    width: 170px;
+
+}
+.message-field {
+  display: flex;
+
+  column-gap: 30px;
+}
+textarea {
+  height: 100px;
+}
+button {
+    background-color: floralwhite;
+
 }
