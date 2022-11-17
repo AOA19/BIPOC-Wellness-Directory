@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behvaior: smooth;
+} 
+
+body, html {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.container {
+    padding: 2em;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 2em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.top-navigation-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-navigation-right button {
+    border: 1px solid black;
+    background-color: white;
+    width: 150px;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+}
+
+.landingpage-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.landingpage-body-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
+.landingpage-body-left h1 {
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.landingpage-body-left p {
+    width: 560px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.landingpage-body-left button {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 1em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.landingpage-body-right img {
+    width: 500px;
+}
