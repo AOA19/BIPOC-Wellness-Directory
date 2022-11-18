@@ -10,6 +10,7 @@ import Homepage from './pages/Homepage/Homepage';
 import Contact from './pages/Contact/Contact';
 import Header from './components/Header';
 import SignUp from './pages/SignUp/SignUp';
+import About from './components/About';
 
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={ <Homepage /> } />
           <Route path="/contact" element={ <Contact /> } />
+          <Route path="/about" element={ <About /> } />
           <Route path="/signup" element={ <SignUp /> } />
-        </Routes>
+          </Routes>
       </Router>
-    </>
+      </>
   );
 }
 
