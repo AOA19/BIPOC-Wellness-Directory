@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
 }
 
-.top-navigation h1 {
+.homepage-body h1 {
     font-size: large;
 }
 
@@ -99,14 +99,26 @@ body {
     cursor: pointer;
 }
 
-/* .landingpage-body-right img {
-    width: 500px;
-} */
 
 .homepage-body-left img {
-    width: 100px;
+    width: 400px;
 }
 
 .patient-testimonials img {
-    float: right;
+    width: 200px;
+}
+
+.patient p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.patient {
+    display: flex;
+    align-items: center;
+}
+
+.woman {
+    position: relative;
+    left: 120px;
 }
