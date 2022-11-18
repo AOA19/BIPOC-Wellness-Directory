@@ -11,39 +11,42 @@
   </head>
   <body>
     <!------------------------ NAVIGATION BAR ---------------------->
-    <header>
+    <!------------------------ NAVIGATION BAR ---------------------->
+    <header class="main-header">
+      <!-- Main Logo -->
+      <div class="navbar-brand">
+        <a href="homepage.html" aria-label="Main Logo">
+          <img src="./assets/together.png" alt="Logo" class="logo" />
+        </a>
+      </div>
+      <!-- Mobile Hamburger button (use if time permits) -->
+      <!-- <button
+            id="hamburger-btn"
+            type="button"
+            aria-label="Open the menu"
+            aria-expanded="false"
+            aria-controls="navbar"
+            >
+            <span class="hamburger"></span>
+        </button> -->
       <nav id="navbar">
-        <div class="container">
-          <a href="homepage.html" class="logo" aria-label="Main Logo">
-            <img src="./assets/together.png" alt="Logo" />
-          </a>
-          <!-- Mobile Hamburger button (use if time permits) -->
-          <!-- <button
-                    id="hamburger-btn"
-                    type="button"
-                    aria-label="Open the menu"
-                    aria-expanded="false"
-                    aria-controls="navbarNav"
-                    >
-                    <span class="hamburger"></span>
-                </button> -->
-          <div id="navbarNav">
-            <ul class="navbar-left">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Providers</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ul class="navbar-left">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Providers</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link nav-login">Login</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <!------------------------ SIGN UP FORM ---------------------->
