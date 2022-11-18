@@ -1,0 +1,48 @@
+.main-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 30px
+}
+
+/* Right side of navbar */
+.navbar-brand img {
+    width: 65px;
+}
+
+/* Left side of navbar */
+.navbar-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding: 0 25px;
+}
+
+.nav-link {
+    color: #563c15;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    transition: 200ms ease-in-out;
+}
+
+.nav-link:hover {
+    color: #8f6b36;
+}
+
+/* Login button styling */
+.nav-login {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 35px;
+    text-transform: uppercase;
+}
+
+.nav-login:hover {
+    background-color: #73ade2;
+    color: #FFFFFF;
+}
