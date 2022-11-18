@@ -10,18 +10,18 @@ function Contact() {
                 <img className="contact-pic" src="./assets/main_page_image18.jpg" alt="" />
                 <form className="contact-form">
                     <div className="name-field">
-                        <label>Name: </label>
-                        <input type="text"></input>
+                        <label className='form-label'>Name: </label>
+                        <input className='form-input' type="text"></input>
                     </div>
                     <div className="email-field">
-                        <label>Email: </label>
-                        <input type="text"></input>
+                        <label className='form-label'>Email: </label>
+                        <input className='form-input' type="text"></input>
                     </div>
                     <div className="message-field">
-                        <label>Message: </label>
+                        <label className='form-label'>Message: </label>
                         <textarea placeholder="What can we help you with?"></textarea>
                     </div>
-                    <button>SEND</button>
+                    <button className='form-btn' >SEND</button>
                 </form>
             </section>
         </div>
