@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-color: D3BA9D;
 } 
 
 body, html {
@@ -11,7 +10,7 @@ body, html {
 }
 
 body {
-    background-color: rgb(199, 176, 131);
+    background-color: burlywood;
 }
 
 .container {
@@ -62,46 +61,56 @@ body {
 }
 
 .top-navigation-logo img {
-    width: 200px;
+    width: 100px;
 }
 
 .homepage-body {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    margin-top: 30px;
-}
+  }
+
+.homepage-body h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    color: brown;
+  }
 
 .homepage-body-left {
     display: flex;
     flex-direction: column;
-    gap: 2.5em;
+    gap: 1em;
 }
 
 .homepage-body-left h1 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
+    width: 550px;
+    color: brown;
 }
 
 .homepage-body-left p {
     width: 560px;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .homepage-body-left button {
     border: none;
-    background-color: rgb(76, 130, 245);
+    background-color: brown;
     color: white;
-    width: 150px;
+    font-weight: bold;
+    width: 200px;
     padding: 1em;
     border-radius: 30px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 
 .homepage-body-left img {
-    width: 400px;
+    width: 600px;
 }
 
 .patient-testimonials img {
@@ -111,6 +120,8 @@ body {
 .patient p {
     padding-left: 20px;
     padding-right: 20px;
+    width: 450px;
+    font-weight: 900;
 }
 
 .patient {
@@ -121,4 +132,8 @@ body {
 .woman {
     position: relative;
     left: 120px;
+}
+
+.patient-testimonials {
+    float: right;
 }
