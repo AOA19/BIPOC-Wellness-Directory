@@ -8,6 +8,7 @@ import Providers from './pages/Providers/Providers';
 import Contact from './pages/Contact/Contact';
 import SignUp from './pages/SignUp/SignUp';
 // import Footer from './components/Footer';
+import Login from './pages/Login/Login'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Route path="/providers" element={<Providers />} />
 
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
+
           <Route path="/signup" element={<SignUp />} />
         </Routes>
         {/* <Footer /> */}
