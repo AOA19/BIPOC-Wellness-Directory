@@ -6,9 +6,10 @@ import {
 } from 'react-router-dom';
 import './App.css';
 
-import HomePage from './components/HomePage';
-import Contact from './components/Contact';
+import Homepage from './pages/Homepage/Homepage';
+import Contact from './pages/Contact/Contact';
 import Header from './components/Header';
+import SignUp from './pages/SignUp/SignUp';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Router>
       <Header />
         <Routes>
-          <Route exact path="/" element={ <HomePage /> } />
+          <Route exact path="/" element={ <Homepage /> } />
           <Route path="/contact" element={ <Contact /> } />
+          <Route path="/signup" element={ <SignUp /> } />
         </Routes>
       </Router>
     </>
