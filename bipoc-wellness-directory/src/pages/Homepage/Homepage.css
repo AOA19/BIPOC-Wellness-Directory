@@ -1,25 +1,16 @@
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}  */
-
-/* body, html {
-    font-family: 'Epilogue', sans-serif;
-}
-
-body {
-    background-color: #e4d6c9;
-} */
 
 .container {
     padding: 2em;
 }
+.body {
+    padding: 0px 120px;
 
+}
 
 .homepage-body h1 {
     font-size: large;
+    color: white;
+    text-shadow: #563c15 0px 0 7px;
 }
 
 .homepage-body {
@@ -38,18 +29,25 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    justify-content: center;
 }
 
 .homepage-body-left h1 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     width: 550px;
+    text-align: center;
+    padding-right: 75px;
+
 }
 
 .homepage-body-left p {
     width: 560px;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 30px;
+    padding-right: 75px;
+    text-align: center;
+
 }
 
 .homepage-body-left button {
@@ -64,25 +62,29 @@ body {
     font-size: 20px;
 }
 
-
+.signup {
+    text-align: center;
+    padding-right: 75px;
+}
 .homepage-body-left img {
-    width: 600px;
+    width: 500px;
 }
 
 .patient-testimonials img {
-    width: 200px;
+    width: 175px;
 }
 
 .patient p {
     padding-left: 20px;
     padding-right: 20px;
     width: 450px;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .patient {
     display: flex;
     align-items: center;
+    margin-bottom: 85px;
 }
 
 .woman {

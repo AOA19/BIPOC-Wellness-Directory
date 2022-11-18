@@ -3,7 +3,7 @@ import './Homepage.css'
 import {Link} from 'react-router-dom'
 function Homepage() {
     return (
-        <>
+        <div className='body'>
             <div class="homepage-body">
                 <h1>
                     BIPOC Wellness Directory
@@ -16,7 +16,7 @@ function Homepage() {
                         "Dr. Williams was very attentive and I want to express my sincere
                         appreciation for the promptness and professional care given to my
                         wife and I during an incredibly hard time in our lives. Our experience at her facility was the upmost positive and
-                        best we have ever encountered!" - Joseph, 59
+                        best we have ever encountered!" <br />- Joseph, 59
                     </p>
                 </div>
                 <div class="woman patient">
@@ -26,7 +26,7 @@ function Homepage() {
                         him enough! I had a wonderful experience from when I walked into his office!
                         During the sessions, my son felt heard and understood.
                         I highly recommend the use of this directory to find the Psychotherapist that
-                        works best for you or your loved one's needs!" - Mary, 44
+                        works best for you or your loved one's needs!" <br />- Mary, 44
                     </p>
                 </div>
                 <div class="older_woman patient">
@@ -35,7 +35,7 @@ function Homepage() {
                         "I just wanted to thank the Dr. Williams and her team for taking such great care of me
                         during my grief and depression period after my husband passed away.
                         She also ensured that I received high quality care and an interpreter to accomodate my hard of hearing.
-                        Thank you for being so compassionate Dr. Williams!" - Carol, 75
+                        Thank you for being so compassionate Dr. Williams!" <br />- Carol, 75
                     </p>
                 </div>
             </div>
@@ -48,12 +48,12 @@ function Homepage() {
                     specialized needs, and insurance network. We’re here to help you find the
                     best provider and service for you and your family!
                 </p>
-               <Link to='/signup' className='nav-link'>
+               <Link to='/signup' className='nav-link signup'>
 
                 <button>Sign Up</button>
                 </Link>
             </div>
-        </>
+        </div>
     );
 }
 
