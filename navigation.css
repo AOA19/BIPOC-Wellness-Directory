@@ -1,9 +1,24 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 .main-header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 30px
+    padding: 15px 30px 0 20px;
 }
 
 /* Right side of navbar */

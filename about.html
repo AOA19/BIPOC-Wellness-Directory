@@ -6,26 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="navigation.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>BIPOC Wellness Directory</title>
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <div class="container">
-        <nav class="top-navigation">
-            <div class="top-navigation-left">
-                <img src="assets/together.png" alt="" />
-            </div>
-            <div class="top-navigation-right">
-                <div class="top-navigation-links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Providers</a>
-                    <a href="#">Contact Us</a>
-                    <button>Login</button>
-                </div>
-            </div>
+    <header class="main-header">
+        <!-- Main Logo -->
+        <div class="navbar-brand">
+          <a href="homepage.html" aria-label="Main Logo">
+            <img src="./assets/together.png" alt="Logo" class="logo" />
+          </a>
+        </div>
+        <!-- Mobile Hamburger button (use if time permits) -->
+        <!-- <button
+              id="hamburger-btn"
+              type="button"
+              aria-label="Open the menu"
+              aria-expanded="false"
+              aria-controls="navbar"
+              >
+              <span class="hamburger"></span>
+          </button> -->
+        <nav id="navbar">
+          <ul class="navbar-left">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Providers</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link nav-login">Login</a>
+            </li>
+          </ul>
         </nav>
+      </header>
         <!-- Body -->
         <div class="landingpage-body-center">
             <h1>BIPOC Wellness Directory</h1>
@@ -33,6 +63,7 @@
                 community.We disparities among people of color when it came to mental health or medical
                 services. We desire to see all peole have equal access to healthcare and providers to they can
                 identify.</p>
+                <img src="./assets/main_page_image4.jpg">
         </div>
     </div>
 </body>
