@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: beige;
+  font-family: "Epilogue", sans-serif;
+}
+.nav-logo {
+    display: flex;
+    column-gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+.logo {
+  height: 5em;
+  width: 5em;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px 0px 25px;
+}
+.navbar-left {
+  display: flex;
+  column-gap: 15px;
+  list-style: none;
+  font-size: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,45 @@
+.title,
+.subtext {
+  text-align: center;
+}
+.main-text {
+  display: flex;
+  justify-content: space-evenly;
+  /* padding-bottom: 100px; */
+}
+.contact-pic {
+  height: 30em;
+  width: 20em;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #cc9e83;
+  border-radius: 25px;
+  padding: 25px;
+}
+label {
+  background-color: #cc9e83;
+}
+.name-field,
+.email-field {
+  display: flex;
+  column-gap: 50px;
+  background-color: #cc9e83;
+}
+input {
+  width: 170px;
+}
+.message-field {
+  display: flex;
+  background-color: #cc9e83;
+
+  column-gap: 30px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background-color: #f5737f;
+}
