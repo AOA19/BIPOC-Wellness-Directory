@@ -7,7 +7,7 @@ import About from './pages/About/About';
 import Providers from './pages/Providers/Providers';
 import Contact from './pages/Contact/Contact';
 import SignUp from './pages/SignUp/SignUp';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Login from './pages/Login/Login'
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
           <Route path="/signup" element={<SignUp />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
