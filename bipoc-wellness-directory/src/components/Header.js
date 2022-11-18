@@ -10,7 +10,7 @@ function Header(){
             <div className="top-navigation-right">
                 <nav className="top-navigation-links">
                     <Link to='/'> Home </Link>
-                    <Link to='/'> About </Link>
+                    <Link to='/about'> About </Link>
                     <Link to='/'> Providers </Link>
                     <Link to='/contact'> Contact Us</Link>
                     <Link to='/'> Login </Link>

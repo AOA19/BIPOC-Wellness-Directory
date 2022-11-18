@@ -9,6 +9,7 @@ import './App.css';
 import HomePage from './components/HomePage';
 import Contact from './components/Contact';
 import Header from './components/Header';
+import About from './components/About';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={ <HomePage /> } />
           <Route path="/contact" element={ <Contact /> } />
+          <Route path="/about" element={ <About /> } />
         </Routes>
       </Router>
     </>
