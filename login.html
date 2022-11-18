@@ -4,43 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="signin-login.css" />
+    <link rel="stylesheet" href="navigation.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>Login</title>
   </head>
   <body>
     <!------------------------ NAVIGATION BAR ---------------------->
-    <header>
+    <header class="main-header">
+      <!-- Main Logo -->
+      <div class="navbar-brand">
+        <a href="homepage.html" aria-label="Main Logo">
+          <img src="./assets/together.png" alt="Logo" class="logo" />
+        </a>
+      </div>
+      <!-- Mobile Hamburger button (use if time permits) -->
+      <!-- <button
+            id="hamburger-btn"
+            type="button"
+            aria-label="Open the menu"
+            aria-expanded="false"
+            aria-controls="navbar"
+            >
+            <span class="hamburger"></span>
+        </button> -->
       <nav id="navbar">
-        <div class="container">
-          <a href="homepage.html" class="logo" aria-label="Main Logo">
-            <img src="./assets/together.png" alt="Logo" />
-          </a>
-          <!-- Mobile Hamburger button (use if time permits) -->
-          <!-- <button
-                    id="hamburger-btn"
-                    type="button"
-                    aria-label="Open the menu"
-                    aria-expanded="false"
-                    aria-controls="navbarNav"
-                    >
-                    <span class="hamburger"></span>
-                </button> -->
-          <div id="navbarNav">
-            <ul class="navbar-left">
-              <li class="nav-item">
-                <a href="index.html" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Providers</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <ul class="navbar-left">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Providers</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link nav-login">Login</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <!------------------------ SIGN UP FORM ---------------------->
