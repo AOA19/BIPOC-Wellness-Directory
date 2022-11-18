@@ -7,7 +7,7 @@ import About from './pages/About/About';
 import Providers from './pages/Providers/Providers';
 import Contact from './pages/Contact/Contact';
 import SignUp from './pages/SignUp/SignUp';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );

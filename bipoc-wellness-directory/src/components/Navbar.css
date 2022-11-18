@@ -1,31 +1,63 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: beige;
+  background-color: #e4d6c9;
   font-family: "Epilogue", sans-serif;
 }
-.nav-logo {
-    display: flex;
-    column-gap: 10px;
-    text-decoration: none;
-    color: black;
+li {
+  list-style: none;
 }
-.logo {
-  height: 5em;
-  width: 5em;
+
+a {
+  text-decoration: none;
 }
-nav {
+
+
+.main-header {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 15px 25px 0px 25px;
+  padding: 15px 30px 0 20px;
 }
+
+/* Right side of navbar */
+.navbar-brand img {
+  width: 65px;
+}
+
+/* Left side of navbar */
 .navbar-left {
   display: flex;
-  column-gap: 15px;
-  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.nav-link {
+  color: #563c15;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 600;
+  transition: 200ms ease-in-out;
   font-size: 20px;
 }
-.nav-link {
-  text-decoration: none;
-  color: black;
+
+.nav-link:hover {
+  color: #8f6b36;
+}
+
+/* Login button styling */
+.nav-login {
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 35px;
+  text-transform: uppercase;
+}
+
+.nav-login:hover {
+  background-color: #73ade2;
+  color: #FFFFFF;
 }

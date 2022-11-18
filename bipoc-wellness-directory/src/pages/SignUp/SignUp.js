@@ -25,9 +25,11 @@ function SignUp() {
                     <option value="provider">Provider</option>
                 </select>
                 {/* <!-- Sign up Button --> */}
-                <button type="submit" class="form-btn">Sign Up</button>
-                <div class="account-link">
-                    <p>Already have an account? <span>Login</span></p>
+                <div class="btn-container">
+                    <button type="submit" class="form-btn">Sign Up</button>
+                    <a href="login.html">
+                        <p>Already have an account? <span>Login</span></p>
+                    </a>
                 </div>
             </form>
         </div >

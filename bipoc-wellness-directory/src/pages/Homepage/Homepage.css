@@ -1,0 +1,95 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}  */
+
+/* body, html {
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    background-color: #e4d6c9;
+} */
+
+.container {
+    padding: 2em;
+}
+
+
+.homepage-body h1 {
+    font-size: large;
+}
+
+.homepage-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.homepage-body h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+  }
+
+.homepage-body-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.homepage-body-left h1 {
+    font-size: 35px;
+    font-weight: bold;
+    width: 550px;
+}
+
+.homepage-body-left p {
+    width: 560px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.homepage-body-left button {
+    border: none;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 1em;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.homepage-body-left img {
+    width: 600px;
+}
+
+.patient-testimonials img {
+    width: 200px;
+}
+
+.patient p {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 450px;
+    font-weight: 900;
+}
+
+.patient {
+    display: flex;
+    align-items: center;
+}
+
+.woman {
+    position: relative;
+    left: 120px;
+}
+
+.patient-testimonials {
+    float: right;
+}

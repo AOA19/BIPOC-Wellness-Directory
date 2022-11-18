@@ -12,6 +12,7 @@ function About() {
             it came to mental health or medical services. We desire to see all peole
             have equal access to healthcare and providers to they can identify.
         </p>
+        <img src="./assets/main_page_image4.jpg" alt="" />
         </div>
     </div>
   );
