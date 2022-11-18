@@ -19,9 +19,6 @@
   border-radius: 25px;
   padding: 25px;
 }
-label {
-  background-color: #cc9e83;
-}
 .name-field,
 .email-field {
   display: flex;

@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  background-color: #e4d6c9;
   font-family: "Epilogue", sans-serif;
+}
+body {
+  background-color: #e4d6c9;
+
 }
 li {
   list-style: none;
