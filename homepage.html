@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./homepage.css">
+    <link rel="stylesheet" href="navigation.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;0,700;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>BIPOC Wellness Directory</title>
 </head>
 <body>
     <div class="container"> 
-        <nav class="top-navigation">
+        <!-- <nav class="top-navigation">
             <div class="top-navigation-logo">
                 <img src="assets/together.png" alt="">
             </div>
@@ -22,40 +30,80 @@
                     <button>Login</button>
                 </div>
             </div>
-        </nav>
-        <div class="homepage-body"> 
-            <h1>
-                BIPOC Wellness Directory
-            </h1>
+        </nav> -->
+        
+        <!-- Navigation Bar -->
+    <header class="main-header">
+        <!-- Main Logo -->
+        <div class="navbar-brand">
+          <a href="homepage.html" aria-label="Main Logo">
+            <img src="./assets/together.png" alt="Logo" class="logo" />
+          </a>
         </div>
+        <!-- Mobile Hamburger button (use if time permits) -->
+        <!-- <button
+              id="hamburger-btn"
+              type="button"
+              aria-label="Open the menu"
+              aria-expanded="false"
+              aria-controls="navbar"
+              >
+              <span class="hamburger"></span>
+          </button> -->
+        <nav id="navbar">
+          <ul class="navbar-left">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Providers</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link nav-login">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="homepage-body"> 
+        <h1>
+            BIPOC Wellness Directory
+        </h1>
+    </div>
+
         <div class="patient-testimonials">
             <div class="male patient">
                 <img src="./assets/older_male.png" alt="">
                     <p>
-                        Dr. Williams is very attentive and I want to express my sincere 
+                        Dr. Williams was very attentive and I want to express my sincere 
                         appreciation for the promptness and professional care given to my 
-                        wife and I. Our experience at her facility was of the quickest and 
+                        wife and I during an incredibly hard time in our lives. Our experience at her facility was the upmost positive and 
                         best we have ever encountered! - Joseph, 59
                     </p>
             </div>
             <div class="woman patient">
                 <img src="./assets/avg_age_woman.png" alt="">  
                     <p>
-                        Alison Carr helped my son through his struggles, I cannot thank 
-                        her enough! I had a wonderful experience when coming in to Alison 
-                        Carr's office! During the sessions, my son felt heard and understood. 
-                        I highly recommend the use of this directory to find the therapist that
+                        Dr. Tyler Jones helped my son through his anxiety and PTSD, I cannot thank 
+                        him enough! I had a wonderful experience from when I walked into his office! 
+                        During the sessions, my son felt heard and understood. 
+                        I highly recommend the use of this directory to find the Psychotherapist that
                         works best for you or your loved one's needs! - Mary, 44
                     </p>
             </div>
             <div class="older_woman patient">
                 <img src="./assets/older_female.png" alt="">
                     <p>
-                        I just wanted to thank the Dr. William and her medical team for 
-                        taking such great care of me when I was ill. I could tell that the 
-                        staff worked very well as a team and ensured that I received high 
-                        quality care and an interpreter to accomodate my hard of hearing. 
-                        Thank you for being so compassionate! - Carol, 75
+                        I just wanted to thank the Dr. Williams and her team for taking such great care of me 
+                        during my grief and depression period after my husband passed away. 
+                        She also ensured that I received high quality care and an interpreter to accomodate my hard of hearing. 
+                        Thank you for being so compassionate Dr. Williams! - Carol, 75
                     </p>
             </div>
         </div>
