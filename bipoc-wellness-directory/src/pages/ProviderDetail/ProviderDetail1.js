@@ -34,9 +34,9 @@ function ProviderDetail1() {
                 <br /> <br />
                 12346 Alphabet St Shreveport, Louisiana 71105
                 <br /><br />
-                Email:
+                Email: tmartinez@gmail.com
                 <br /><br />
-                Phone Number: 555-555-5555
+                Phone Number: 318-248-6420
                 <br /><br />
                 <img src="assets/zoom.png" alt='play button in a circle' className='zoom-image' />
                 <br /><br />
