@@ -5,28 +5,28 @@ import "./Navbar.css";
 function Header() {
   
   // Hamburger toggle function:
-  const hamburgerBtn = document.querySelector("#hamburger-btn");
-  const navMenu = document.querySelector(".nav-menu");
-  const navLink = document.querySelectorAll(".nav-link");
+  // const hamburgerBtn = document.querySelector("#hamburger-btn");
+  // const navBar = document.querySelector("#nav-bar");
+  // const navLink = document.querySelectorAll(".nav-link");
 
-  hamburgerBtn.addEventListener("click", () => {
-    const visible = navMenu.getAttribute("data-visible");
-    if (visible === "false") {
-      navMenu.setAttribute("data-visible", true);
-      hamburgerBtn.setAttribute("aria-expanded", true);
-    } else {
-      navMenu.setAttribute("data-visible", false);
-      hamburgerBtn.setAttribute("aria-expanded", false);
-    }
-  });
+  // hamburgerBtn.addEventListener("click", () => {
+  //   const visible = navBar.getAttribute("data-visible");
+  //   if (visible === "false") {
+  //     navBar.setAttribute("data-visible", true);
+  //     hamburgerBtn.setAttribute("aria-expanded", true);
+  //   } else {
+  //     navBar.setAttribute("data-visible", false);
+  //     hamburgerBtn.setAttribute("aria-expanded", false);
+  //   }
+  // });
 
-  // Function to close the hamburger menu when the links are clicked:
-  navLink.forEach((n) => n.addEventListener("click", closeMenu));
+  // // Function to close the hamburger menu when the links are clicked:
+  // navLink.forEach((n) => n.addEventListener("click", closeMenu));
 
-  function closeMenu() {
-    navMenu.setAttribute("data-visible", false);
-    hamburgerBtn.setAttribute("aria-expanded", false);
-  }
+  // function closeMenu() {
+  //   navBar.setAttribute("data-visible", false);
+  //   hamburgerBtn.setAttribute("aria-expanded", false);
+  // }
   return (
     // <header>
     //     <nav id="navbar">
@@ -77,16 +77,15 @@ function Header() {
         </a>
       </div>
       {/* { Mobile Hamburger button (use if time permits)} */}
-      <button
+      {/* <button
         id="hamburger-btn"
         type="button"
         aria-label="Open the menu"
         aria-expanded="false"
         aria-controls="navbar"
       >
-        {/* <span class="hamburger"></span> */}
-        <i class="fa-solid fa-bars"></i>
-      </button>
+        <span class="hamburger"></span>
+      </button> */}
       <nav id="navbar">
         <ul class="navbar-left" data-visible="false">
           <li class="nav-item">

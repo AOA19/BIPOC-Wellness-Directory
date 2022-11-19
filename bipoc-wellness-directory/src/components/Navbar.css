@@ -66,7 +66,7 @@ a {
   color: #FFFFFF;
 }
 
-/* Hamburger menu styling */
+/* Hamburger menu styling 
 @media screen and (max-width: 768px) {
   #navbar {
     display: none;
@@ -80,10 +80,11 @@ a {
     cursor: pointer;
     height: 2rem;
     width: 1.5rem;
-    /* left: 1rem; */
+    /* left: 1rem; 
   }
 
   #hamburger[aria-expanded="true"] {
     background-image: url("/Users/aakin19/Desktop/BIPOC-Wellness-Directory-2/bipoc-wellness-directory/public/assets/times-solid.svg");
   }
 }
+*/
