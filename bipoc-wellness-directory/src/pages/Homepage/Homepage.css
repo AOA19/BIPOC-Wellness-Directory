@@ -1,6 +1,7 @@
 .container {
     padding: 2em;
 }
+
 .body {
     padding: 0px 120px;
 }
@@ -59,6 +60,7 @@
 .signup {
     text-align: center;
 }
+
 .homepage-body-left img {
     width: 500px;
 }

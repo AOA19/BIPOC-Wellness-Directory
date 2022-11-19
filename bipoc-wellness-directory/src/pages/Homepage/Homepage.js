@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Homepage() {
   return (
     <div className="body">
-      <div class="homepage-body">
+      <div className="homepage-body">
         <h1>BIPOC Wellness Directory</h1>
       </div>
       <div className="main-section">
-      <div class="homepage-body-left">
+      <div className="homepage-body-left">
           <h1>
             Our goal is to provide easy and equitable access to local therapist
             and medical providers of your choosing
@@ -28,7 +28,7 @@ function Homepage() {
         </div>
         <div class="patient-testimonials">
           <div class="male patient">
-            <img src="./assets/older_male.png" alt="" />
+            <img src="./assets/older_male.png" alt="male patient smiling" />
             <p>
               "Dr. Williams was very attentive and I want to express my sincere
               appreciation for the promptness and professional care given to my
@@ -38,7 +38,7 @@ function Homepage() {
             </p>
           </div>
           <div class="woman patient">
-            <img src="./assets/avg_age_woman.png" alt="" />
+            <img src="./assets/avg_age_woman.png" alt="female patient smiling " />
             <p>
               "Dr. Tyler Jones helped my son through his anxiety and PTSD, I
               cannot thank him enough! I had a wonderful experience from when I
@@ -49,7 +49,7 @@ function Homepage() {
             </p>
           </div>
           <div class="older_woman patient">
-            <img src="./assets/older_female.png" alt="" />
+            <img src="./assets/older_female.png" alt="older female patient smiling" />
             <p>
               "I just wanted to thank the Dr. Williams and her team for taking
               such great care of me during my grief and depression period after
@@ -60,21 +60,6 @@ function Homepage() {
             </p>
           </div>
         </div>
-        {/* <div class="homepage-body-left">
-          <h1>
-            Our goal is to provide easy and equitable access to local therapist
-            and medical providers of your choosing
-          </h1>
-          <img src="./assets/main_page_image9.jpg" alt="therapist session" />
-          <p>
-            We connect you with the best providers in your area based on your
-            location, specialized needs, and insurance network. We’re here to
-            help you find the best provider and service for you and your family!
-          </p>
-          <Link to="/signup" className="nav-link signup">
-            <button>Sign Up</button>
-          </Link>
-        </div> */}
       </div>
     </div>
   );
