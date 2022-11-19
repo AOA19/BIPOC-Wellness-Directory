@@ -12,7 +12,7 @@ function Homepage() {
             </div>
             <div class="patient-testimonials">
                 <div class="male patient">
-                    <img src="./assets/older_male.png" alt="" />
+                    <img src="./assets/older_male.png" alt="Male patient" />
                     <p>
                         "Dr. Williams was very attentive and I want to express my sincere
                         appreciation for the promptness and professional care given to my
@@ -21,7 +21,7 @@ function Homepage() {
                     </p>
                 </div>
                 <div class="woman patient">
-                    <img src="./assets/avg_age_woman.png" alt="" />
+                    <img src="./assets/avg_age_woman.png" alt="Woman patient" />
                     <p>
                         "Dr. Tyler Jones helped my son through his anxiety and PTSD, I cannot thank
                         him enough! I had a wonderful experience from when I walked into his office!
@@ -31,7 +31,7 @@ function Homepage() {
                     </p>
                 </div>
                 <div class="older_woman patient">
-                    <img src="./assets/older_female.png" alt="" />
+                    <img src="./assets/older_female.png" alt=" Older woman page" />
                     <p>
                         "I just wanted to thank the Dr. Williams and her team for taking such great care of me
                         during my grief and depression period after my husband passed away.

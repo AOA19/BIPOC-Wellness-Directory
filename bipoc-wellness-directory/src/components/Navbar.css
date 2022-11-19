@@ -3,10 +3,12 @@
   scroll-behavior: smooth;
   font-family: "Epilogue", sans-serif;
 }
+
 body {
   background-color: #e4d6c9;
 
 }
+
 li {
   list-style: none;
 }
@@ -62,4 +64,26 @@ a {
 .nav-login:hover {
   background-color: #73ade2;
   color: #FFFFFF;
+}
+
+/* Hamburger menu styling */
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+
+  #hamburger-btn {
+    background-color: transparent;
+    background-image: url("/Users/aakin19/Desktop/BIPOC-Wellness-Directory-2/bipoc-wellness-directory/public/assets/bars-solid.svg");
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    height: 2rem;
+    width: 1.5rem;
+    /* left: 1rem; */
+  }
+
+  #hamburger[aria-expanded="true"] {
+    background-image: url("/Users/aakin19/Desktop/BIPOC-Wellness-Directory-2/bipoc-wellness-directory/public/assets/times-solid.svg");
+  }
 }
