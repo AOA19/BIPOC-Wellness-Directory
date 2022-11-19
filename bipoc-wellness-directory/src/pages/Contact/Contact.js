@@ -11,15 +11,15 @@ function Contact() {
                 <form className="contact-form">
                     <div className="name-field">
                         <label className='form-label'>Name: </label>
-                        <input className='form-input' type="text"></input>
+                        <input className='form-input' type="text" required></input>
                     </div>
                     <div className="email-field">
                         <label className='form-label'>Email: </label>
-                        <input className='form-input' type="text"></input>
+                        <input className='form-input' type="text" required></input>
                     </div>
                     <div className="message-field">
                         <label className='form-label'>Message: </label>
-                        <textarea placeholder="What can we help you with?"></textarea>
+                        <textarea placeholder="What can we help you with?" required></textarea>
                     </div>
                     <button className='form-btn' >SEND</button>
                 </form>
