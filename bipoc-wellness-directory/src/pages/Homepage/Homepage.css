@@ -4,50 +4,45 @@
 
 .body {
     padding: 0px 120px;
+}
 
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepage-body-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
 }
 
 .homepage-body h1 {
-    font-size: large;
+    font-size: 60px;
     color: white;
     text-shadow: #563c15 0px 0 7px;
+    padding-bottom: 30px;
 }
 
 .homepage-body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.homepage-body h1 {
-    font-size: 60px;
-    font-weight: bolder;
-    padding-bottom: 30px;
-}
-
-.homepage-body-left {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    justify-content: center;
-}
+  }
 
 .homepage-body-left h1 {
     font-size: 25px;
     font-weight: bold;
     width: 550px;
     text-align: center;
-    padding-right: 75px;
-
 }
 
 .homepage-body-left p {
     width: 560px;
     font-size: 20px;
     line-height: 30px;
-    padding-right: 75px;
     text-align: center;
-
 }
 
 .homepage-body-left button {
@@ -64,7 +59,6 @@
 
 .signup {
     text-align: center;
-    padding-right: 75px;
 }
 
 .homepage-body-left img {
@@ -98,8 +92,13 @@
 }
 
 @media (max-width: 1400px) and (orientation: portrait) {
+    .main-section {
+        flex-direction: column;
+    }
     .patient-testimonials {
-        display: none;
+        margin-top: 40px;
+    }
+    .homepage-body h1 {
+        padding: 0;
     }
 }
-
