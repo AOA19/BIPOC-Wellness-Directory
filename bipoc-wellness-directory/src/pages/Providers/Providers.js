@@ -1,69 +1,73 @@
 import React from 'react'
-// import './Providers.css'
+import './Providers.css'
+import { Link } from 'react-router-dom';
 
 function Providers() {
     return (
-        <div class="hero">
-            <center><h1>Meet The Providers</h1></center>
+        <div>
+            <h1 className='providers'>Meet The Providers</h1>
+                <div className='provider'>
+                    <img src="assets/provider1-modified.png" class="menu-img"
+                    width="200"
+                    height="200" alt="provider 1" />
 
-            <img src="assets/provider1-modified.png" class="menu-img" alt="provider1"
-                width="100"
-                height="100" />
+                    <h1>Dr. Theresa Martinez, MD </h1>
+                    <h2>Clinical Psychiatrist</h2>
+                    <p>
+                    Ranking: 4.6/5</p>
+                    <p>
+                    Location: Shreveport, Lousiana</p>
+                    <p>
+                    Video Chat Available</p>
+                    <p>
+                    Specialties:
+                    Addictions, PTSD, Trauma,
+                    Burnout, Grief, Women
+                    Issues, LGBT Issues</p>
+                    <Link to='/provider1'>
+                        <button className='detail-btn' type="button">Click here for more</button>
+                    </Link>
+            </div>
+            <div className='provider'>
 
-            <center><h1>Dr. Theresa Williams, MD </h1></center>
-            <center><h2>Clinical Psychiatrist</h2></center>
-            <p>            Ranking: 4.6/5</p>
+                <img src="assets/provider3-modified.png" class="menu-img"
+                    width="200"
+                    height="200" alt="provider 2" />
+                <h1>Dr. Tyler Jones M.D.</h1>
+                <h2>Psychotherapist</h2>
+                <p>
+                    Ranking: 4.8/5</p>
+                <p>
+                    Location: Baltimore, Maryland</p>
+                <p>
+                    Specialties:
+                    Geriatric, PTSD, Trauma,
+                    Burnout, Grief, OCD, Anxiety,
+                    Personality Disorders</p>
+                    <Link to='/provider2'>
+                <button className='detail-btn' type="button">Click here for more</button>
+                    </Link>
+            </div>
+            <div className='provider'>
+                <img src="assets/provider4-modified.png" class="menu-img"
+                    width="200"
+                    height="200" alt='provider 4' />
 
-            <p>            Location: Shreveport, Lousiana</p>
+                <h1>Neil Huang LCSW, LCMC </h1>
+                <h2>Mental Health Councelor</h2>
+                <p>
+                    Ranking: 4.8/5</p>
+                <p>
+                    Location: Los Angeles, California</p>
+                <p>
+                    Specialties:
+                    Eating Disorders, Depression/Mood Disorders,
+                    PTSD, Trauma, Burnout, Grief, LGBT Issues</p>
 
-            <p>            Specialties:
-                Addictions, PTSD, Trauma,
-                Burnout, Grief, Women
-                Issues, LGBT Issues</p>
-            <p>
-                Click here for more information</p>
-
-            <img src="assets/provider3-modified.png" class="menu-img" alt='provider3'
-                width="100"
-                height="100" />
-
-            <center><h1>Dr. (First Name) (Last Name) M.D., M.P.H. </h1></center>
-            <center><h2>Psychotherapist</h2></center>
-            <p>            Ranking: 4.8/5</p>
-
-
-
-            <p>            Location: Baltimore, Maryland</p>
-
-
-            <p>            Specialties:
-                Geriatricc, PTSD, Trauma,
-                Burnout, Grief, OCD, Anxiety,
-                Personality Disorders</p>
-            <p>
-                Click here for more information</p>
-
-
-            <img src="assets/provider4-modified.png" class="menu-img" alt='provider4'
-                width="100"
-                height="100" />
-
-
-            <center><h1>(First Name) (Last Name)  LCSW, LCMHS </h1></center>
-            <center><h2>Psychiatrist</h2></center>
-
-            <p>            Ranking: 4.8/5</p>
-
-            <p>            Location: Los Angeles, California</p>
-
-
-            <p>            Specialties:
-                Eating Disorders, Depression/Mood Disorders,
-                PTSD, Trauma, Burnout, Grief, LGBT Issues</p>
-            <p>
-                Click here for more information</p>
-
-
+                <Link to='/provider3'>
+                    <button className='detail-btn' type="button">Click here for more </button>
+                </Link>
+            </div>
         </div >
     )
 }
