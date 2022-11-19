@@ -72,9 +72,9 @@ function Header() {
     <header class="main-header">
       {/* <!-- Main Logo --> */}
       <div class="navbar-brand">
-        <a href="homepage.html" aria-label="Main Logo">
+      <Link to="/">
           <img src="./assets/together.png" alt="Logo" class="logo" />
-        </a>
+        </Link>
       </div>
       {/* { Mobile Hamburger button (use if time permits)} */}
       {/* <button
