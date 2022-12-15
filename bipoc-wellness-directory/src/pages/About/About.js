@@ -67,7 +67,7 @@ function About() {
               alt="Avatar icon"
               className="avatar-img"
             />
-            <p className="team-member">Jeniece-Demarie George</p>
+            <p className="team-member">Jeneice-Demarie George</p>
           </div>
           {/* Team member six */}
           <div className="avatar">
