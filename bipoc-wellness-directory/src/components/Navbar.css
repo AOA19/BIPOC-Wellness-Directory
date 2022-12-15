@@ -18,44 +18,66 @@ a {
 }
 
 
-.main-header {
-  align-items: center;
+.navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 15px 30px 0 20px;
 }
 
 /* Right side of navbar */
 .navbar-brand img {
-  width: 65px;
+  width: 75px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 /* Left side of navbar */
-.navbar-left {
+.hamburger-btn {
+  border: none;
+  color: #563c15;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: transparent;
+  display: none;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+}
+
+.nav-menu{
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 
 .nav-item {
   padding: 0 25px;
 }
 
+.nav-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
 .nav-link {
   color: #563c15;
   font-weight: 600;
   transition: 200ms ease-in-out;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .nav-link:hover {
   color: #8f6b36;
+
 }
 
 /* Login button styling */
 .nav-login {
   background-color: #FFFFFF;
   border-radius: 30px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   padding: 12px 35px;
   text-transform: uppercase;
@@ -66,25 +88,31 @@ a {
   color: #FFFFFF;
 }
 
-/* Hamburger menu styling 
-@media screen and (max-width: 768px) {
-  #navbar {
-    display: none;
+
+/*** MEDIA QUERIES ***/
+@media (min-width: 300px) and (max-width: 900px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-menu {
+    /* display: none; */
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e4d6c9;
+    /* background-color: white; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
-  #hamburger-btn {
-    background-color: transparent;
-    background-image: url("/Users/aakin19/Desktop/BIPOC-Wellness-Directory-2/bipoc-wellness-directory/public/assets/bars-solid.svg");
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    height: 2rem;
-    width: 1.5rem;
-    /* left: 1rem; 
+  .nav-item {
+    padding: 20px 0;
   }
 
-  #hamburger[aria-expanded="true"] {
-    background-image: url("/Users/aakin19/Desktop/BIPOC-Wellness-Directory-2/bipoc-wellness-directory/public/assets/times-solid.svg");
+
+  .hamburger-btn {
+    display: block;
+
   }
 }
-*/
