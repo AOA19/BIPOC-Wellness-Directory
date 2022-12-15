@@ -6,20 +6,20 @@ function Login() {
     return (
         <div>
             <form id="form">
-                <h2 class="form-title">Welcome Back!</h2>
+                <h2 className="form-title">Welcome Back!</h2>
                 {/* <!-- Email --> */}
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-input" id="email" required />
+                <label for="email" className="form-label">Email</label>
+                <input type="email" className="form-input" id="email" required />
                 {/* <!-- Password --> */}
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-input" id="password" required />
+                <label for="password" className="form-label">Password</label>
+                <input type="password" className="form-input" id="password" required />
                 {/* <!-- Login Button --> */}
-                <div class="btn-container">
+                <div className="btn-container">
                         <Link to="/" className="form-btn">
                             Login
                         </Link>  
                     <Link to="/signup">
-                        <p class="no-account">Don't have an account? <span>Sign Up</span></p>
+                        <p className="no-account">Don't have an account? <span>Sign Up</span></p>
                         </Link>  
                 </div>
             </form>

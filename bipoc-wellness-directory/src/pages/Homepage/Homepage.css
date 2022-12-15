@@ -1,104 +1,173 @@
-.container {
-    padding: 2em;
+/*** Homepage title ***/
+.homepage-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.body {
-    padding: 0px 120px;
+.homepage-title h1 {
+    color: white;
+    font-size: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-shadow: #563c15 0px 0 7px;
 }
 
+
+/*** Main Section (Left Side) ***/
 .main-section {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 50px;
 }
 
 .homepage-body-left {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 500px;
+    /* max-width: 50%; */
 }
 
-.homepage-body h1 {
-    font-size: 60px;
-    color: white;
-    text-shadow: #563c15 0px 0 7px;
-    padding-bottom: 30px;
-}
-
-.homepage-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-.homepage-body-left h1 {
-    font-size: 25px;
-    font-weight: bold;
-    width: 550px;
+.main-txt {
+    color: #563c15;
+    font-size: 16px;
     text-align: center;
+    padding: 0 10px;
+    font-weight: 500;
 }
 
-.homepage-body-left p {
-    width: 560px;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
+.main-txt--bold {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 15px;
 }
 
-.homepage-body-left button {
-    border: none;
-    background-color: lightcoral;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    padding: 1em;
+/* Sign up button div */
+.test {
+    margin-top: 20px;
+}
+
+.signUp-btn {
+    background-color: #f08080;
     border-radius: 30px;
+    border: none;
+    color: white;
     cursor: pointer;
     font-size: 20px;
+    font-weight: 600;
+    padding: 15px 50px;
+    transition: 200ms ease-in-out;
 }
 
-.signup {
-    text-align: center;
+.signUp-btn:hover {
+    background-color: hsla(0, 62%, 77%, 0.909);
 }
+
 
 .homepage-body-left img {
-    width: 500px;
+    display: block;
+    max-width: 100%;
 }
 
+/*** Main Section (Right Side) ***/
 .patient-testimonials img {
-    width: 175px;
-}
-
-.patient p {
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 450px;
-    font-weight: 500;
+    width: 140px;
 }
 
 .patient {
     display: flex;
     align-items: center;
-    margin-bottom: 85px;
+}
+
+.patient p {
+    color: #4F4A43;
+    padding: 0 15px;
+    font-weight: 400;
+}
+
+.patient-name {
+    color: #4F4A43;
+    font-weight: 600;
 }
 
 .woman {
     position: relative;
-    left: 120px;
 }
 
-.patient-testimonials {
-    float: right;
-}
 
-@media (max-width: 1400px) and (orientation: portrait) {
+/*** MEDIA QUERIES ***/
+@media (min-width: 320px) and (max-width: 992px) {
     .main-section {
         flex-direction: column;
     }
-    .patient-testimonials {
-        margin-top: 40px;
+
+    .homepage-title h1 {
+        font-size: 40px;
     }
-    .homepage-body h1 {
+
+    .main-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .patient-testimonials {
+        margin-top: 80px;
+    }
+
+    .patient {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+
+    .patient-testimonials img {
+        width: 150px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .main-img {
+        width: 65%;
+    }
+
+    .patient {
+        flex-direction: row;
+        padding-left: 60px;
+        padding-right: 80px;
+    }
+
+    .woman {
+        flex-direction: row-reverse
+    }
+
+}
+
+@media screen and (min-width: 993px) {
+    .homepage-body-left {
+        max-width: 50%;
+    }
+
+    .main-txt--lg {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .patient {
         padding: 0;
+    }
+
+    .patient p {
+        width: 430px;
+        height: 120px;
+        /* font-size: 14px; */
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .main-img {
+        width: 75%;
     }
 }

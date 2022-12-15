@@ -1,43 +1,101 @@
-.container {
-  padding: 2em;
-}
-
-.landingpage-body-center {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.about {
-  font-size: 60px;
-  font-weight: bold;
+/*** Mission section ***/
+.about-title {
+  color: white;
+  font-size: 40px;
   padding-bottom: 20px;
   text-align: center;
-  color: white;
   text-shadow: #563c15 0px 0 7px;
 }
 
-.landingpage-body-center p {
-  font-size: 30px;
-  width: 560px;
+.about-main img {
+  display: block;
+  max-width: 100%;
+}
+
+.about-subtitle {
+  color: #563c15;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-main p {
+  color: #563c15;
+  padding: 0 8px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/*** Team section ***/
+.our-team {
+  padding: 30px;
+}
+
+.our-team-grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 15px;
+}
+
+.team-member {
   text-align: center;
   color: #563c15;
-  font-weight: 500;
-}
-
-.landingpage-body-center img {
-  width: 700px;
-}
-
-.mission {
-  font-size: 40px;
-  text-decoration: underline;
   font-weight: 600;
 }
 
-@media (max-width: 1400px) and (orientation: portrait) {
-  .landingpage-body-center  {
-    flex-direction: column;
-    justify-content: middle;
+.avatar-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*** MEDIA QUERIES ***/
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .about-main p {
+    font-size: 20px;
+    padding: 0 30px;
+  }
+
+  .about-main img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .about-title {
+    font-size: 60px;
+  }
+
+  .about-main {
+    display: flex;
+    padding: 0 30px;
+  }
+
+  .about-main img {
+    max-width: 50%;
+  }
+
+  .about-main p {
+    font-size: 28px;
+    padding: 0 40px;
+
+  }
+
+  .our-team h2 {
+    text-align: left;
+  }
+
+  .our-team {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .team-member {
+    font-size: 22px;
   }
 }
